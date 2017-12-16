@@ -1,0 +1,9 @@
+*{margin: 0;padding:0;}
+ul{list-style: none;}
+h2{text-align: none;}
+#wrap{width: 100%;}
+#brand-txt{font-size: 14px;}
+#bs-example-navbar-collapse-1{padding-left: 0;}
+#nav{border-radius: 0;margin-bottom: 0;}
+/*底部*/
+footer{border: 1px solid #eee;border-left:0; border-right: 0;line-height: 50px;background: #f5f5f5;margin-top: 15px;}

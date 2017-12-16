@@ -1,0 +1,8 @@
+
+h2{font-weight: normal;}
+button{margin-right: 5px;}
+#nav{border-radius: 0;margin-bottom: 0;}
+#sex,#like{padding-top: 7px;}
+#sex label,#like label{margin-right: 10px;}
+#read label{margin-left: 5px;}
+#read a{text-decoration: none;}

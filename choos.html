@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/choose.css">
+</head>
+<body>
+<div id="wrap">
+    <!--导航条-->
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" id="brand-txt">首页</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="webproblem.html">前端资讯</a></li>
+                    <li><a href="choos.html">课程选择</a></li>
+                    <li><a href="vote.html">投票</a></li>
+                    <li><a href="search.html">搜索</a></li>
+                    <li><a href="singup.html">注册</a></li>
+                    <li><a href="login.html">登录</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">关于我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--切换图片-->
+    <div class="container">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox" id="changeImg">
+                <div class="item active" >
+                    <img src="img/hdp_01.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/hdp_02.jpg" alt="">
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!--路径导航-->
+    <div class="container" id="placeNav">
+        <ol class="breadcrumb">
+            <li><a href="#">首页</a></li>
+            <li class="active">前端资讯</li>
+        </ol>
+    </div>
+    <!--内容区-->
+    <div class="container">
+        <div id="choose">
+            <select class="form-control">
+                <option>请选择您要查询的课程</option>
+                <option>Web</option>
+                <option>Ps</option>
+                <option>Js</option>
+                <option>Java</option>
+            </select>
+        </div>
+        <hr>
+    </div>
+    <div id="content" class="container">
+        <div class="row">
+            <a href="#" class="col-md-3"><img src="img/1.jpg" class="img-thumbnail "></a>
+            <a href="#" class="col-md-3"><img src="img/2.jpg" class="img-thumbnail "></a>
+            <a href="#" class="col-md-3"><img src="img/3.jpg" class="img-thumbnail "></a>
+            <a href="#" class="col-md-3"><img src="img/4.jpg" class="img-thumbnail"></a>
+            <a href="#" class="col-md-3"><img src="img/5.jpg" class="img-thumbnail"></a>
+            <a href="#" class="col-md-3"><img src="img/6.jpg" class="img-thumbnail"></a>
+            <a href="#" class="col-md-3"><img src="img/7.jpg" class="img-thumbnail"></a>
+            <a href="#" class="col-md-3"><img src="img/8.jpg" class="img-thumbnail"></a>
+            <a href="#" class="col-md-3"><img src="img/3.jpg" class="img-thumbnail"></a>
+            <a href="#" class="col-md-3"><img src="img/2.jpg" class="img-thumbnail"></a>
+            <a href="#" class="col-md-3"><img src="img/8.jpg" class="img-thumbnail"></a>
+            <a href="#" class="col-md-3"><img src="img/4.jpg" class="img-thumbnail"></a>
+            <a href="#" class="col-md-3"><img src="img/5.jpg" class="img-thumbnail"></a>
+            <a href="#" class="col-md-3"><img src="img/7.jpg" class="img-thumbnail"></a>
+            <a href="#" class="col-md-3"><img src="img/6.jpg" class="img-thumbnail"></a>
+            <a href="#" class="col-md-3"><img src="img/4.jpg" class="img-thumbnail"></a>
+        </div>
+        <nav>
+            <ul class="pager">
+                <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+                <li class="next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--底部-->
+    <footer class="container">
+        Copyright1999-2016北京中公教育科技股纷有限公司 .All Rights Reserved 京ICP证161188号
+    </footer>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
